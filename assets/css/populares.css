@@ -11,16 +11,20 @@
 .populares__card {
     background: #fdfdfd;
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
         "card-imagem"
         "card-corpo";
     grid-template-columns: 100%;
+    /*tamanho imagens*/
+    grid-template-rows: 173px auto;
+    margin-right: 1rem;
+    width: 20%;
 }
 
-.populares__card:last-child { 
+.populares__card:last-child {
     margin-right: 0;
 }
- 
+
 .populares__card___imagem {
     grid-area: card-imagem;
     height: 100%;
@@ -31,7 +35,7 @@
     display: grid;
     grid-area: card-corpo;
     grid-row-gap: .5rem;
-    grid-template-areas: 
+    grid-template-areas:
         "card-cabecalho"
         "card-conteudo";
     grid-template-rows: 50px auto;

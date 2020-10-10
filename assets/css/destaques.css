@@ -12,7 +12,7 @@
     height: calc(100vh - 50px);
 }
 
-.destaques__titulo {
+.destaques__titulo{
     background: rgba(0, 0, 0, .5);
     color: #fdfdfd;
     padding: .6rem;
@@ -49,7 +49,7 @@
     display: flex;
     flex-wrap: wrap;
     height: 100%;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .destaques__categorias___item {
